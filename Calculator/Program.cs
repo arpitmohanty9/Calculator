@@ -15,6 +15,7 @@ namespace Calculator
         static void Main()
         {
             Application.EnableVisualStyles();
+	    //Application.SetCompatibleTextRenderingDefault(True);
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
